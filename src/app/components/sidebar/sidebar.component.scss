@@ -1,0 +1,48 @@
+.sidebar {
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    background-color: rgba(18, 23, 35, 1);
+    padding: 20px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #fff;
+        padding: 10px 0px 20px 0px;
+
+        p {
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+
+    .navigate {
+        cursor: pointer;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                margin-top: 10px;
+                padding: 15px;
+
+                &:hover {
+                    background-color: rgba(42, 121, 255, 1);
+                    border-radius: 5px;
+                }
+
+                a {
+
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
