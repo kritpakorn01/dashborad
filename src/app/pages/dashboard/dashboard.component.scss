@@ -1,0 +1,57 @@
+.dashboard {
+
+    .flex-box {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: start;
+        align-items: start;
+
+        .items {
+            padding: 5px;
+            display: block;
+            width: 33.33%;
+            border-radius: 10px;
+
+            .content {
+                border: 2px solid rgba(217, 217, 217, 1);
+                padding: 15px;
+                border-radius: 5px;
+                background-color: #fff;
+
+                .total-display {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: start;
+
+
+                    p {
+                        color: rgba(141, 141, 141, 1);
+                        font-size: 16px;
+                    }
+
+                    h3 {
+                        margin-top: 5px;
+                        font-size: 32px;
+                        font-weight: 700;
+                    }
+
+                }
+
+                .track {
+                    margin-top: 20px;
+
+                    p {
+                        background-color: rgba(236, 239, 255, 1);
+                        width: fit-content;
+                        font-size: 12px;
+                        color: rgba(42, 121, 255, 1);
+                        padding: 3px 5px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
